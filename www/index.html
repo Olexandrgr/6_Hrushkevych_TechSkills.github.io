@@ -16,14 +16,18 @@
 
       <form class="login" action="index.html" method="post">
         <img class="man" src="img/log.png" alt="log" />
-        <input type="text" name="name" placeholder="логин">
-        <input type="password" name="name" placeholder="пароль">
-        <div class="log">
+        <input class="login1" type="text" name="name" placeholder="логин">
+        <input class="login2" type="password" name="name" placeholder="пароль">
+        <input class="log" type="submit" name="name" value="вход">
+        <img class="I" src="img/I.png" alt="I" />
+        <input class="registration" type="submit" name="name" value="регистрация">
+        <input class="forgot" type="submit" name="name" value="забыли пароль?">
+        <!-- <div class="log">
           <a href="#">вход</a>
           <img class="I" src="img/I.png" alt="I" />
           <a href="#">регистрация</a>
           <a class="forgot" href="#">забыли пароль?</a>
-          </div>
+          </div> -->
       </form>
         <div class="navi">
           <a href="#"><img src="img/home.png" alt="home" /></a>
@@ -43,10 +47,18 @@
           <li><a href="#">СТАТЬИ</a></li>
           <li><a href="#">КОНТАКТИ</a></li>
         </ul>
-        <a class="goods" href="#">товаров:</a>
-        <a class="total" href="#">на суму:</a>
+        <form class="goods-total" action="index.html" method="post">
+          <a href="#"><img src="img/basket.png" alt="" /></a>
+          <input class="goods" type="submit" name="name" value="товаров:">
+          <span class="item">0</span>
+          <input class="total" type="submit" name="name" value="на суму:">
+          <span class="money">0,00 грн.</span>
+        </form>
+
+        <!-- <a class="goods" href="#">товаров:</a>
+        <a class="total" href="#">на суму:</a> -->
       </nav>
-    
+
     </header>
 
 
@@ -163,10 +175,11 @@
                       <option value="third">Третья позиция</option>
                       <option value="fourth">Четвертая позиция</option>
                   </select>
+                  <input class="find" type="submit" name="name" value="поиск...">
                 </form>
-              <div class="find">
+              <!-- <div class="find">
                 <a  href="#">поиск...</a>
-              </div>
+              </div> -->
           </div>
 
 
@@ -223,10 +236,11 @@
                         <li><input type="checkbox" id="Brand3">
                           <label for="Brand3">всесез</label></li>
                     </ul>
+                    <input class="find2" type="submit" name="name" value="поиск...">
                 </form>
-                <div class="find2">
+                <!-- <div class="find2">
                   <a  href="#">поиск...</a>
-                </div>
+                </div> -->
           </div>
 
           <div class="form3">
@@ -273,10 +287,11 @@
                           <option value="fourth">147</option>
                       </select>
                     </form>
+
                 </div>
-                <div class="find3">
+                <!-- <div class="find3">
                   <a  href="#">поиск...</a>
-                </div>
+                </div> -->
             </div>
 
               <div class="box-right-form">
@@ -304,6 +319,7 @@
                     <option value="third">146</option>
                     <option value="fourth">147</option>
                 </select>
+                <input class="find3" type="submit" name="name" value="поиск...">
               </form>
           </div>
 
