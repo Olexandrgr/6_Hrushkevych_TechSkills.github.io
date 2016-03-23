@@ -229,7 +229,7 @@ span.money {
 }
 
 .left {
-  margin-top: -34px;
+  margin-top: 121px;
   float: left;
   width: 185px;
 }
@@ -324,7 +324,7 @@ span.money {
 .right {
   float: right;
   width: 185px;
-  margin-top: -20px;
+  margin-top: 134px;
 }
 
 .right p {
@@ -471,7 +471,7 @@ ul.side3 li a{
   overflow: hidden;
   margin: auto;
   width: 515px;
-  margin-top: -23px;
+  margin-top: 133px;
   padding-left: 12px;
   border-radius: 2px/2px;
 }
@@ -569,7 +569,7 @@ figure img {
   clear:both;
   text-align: center;
   margin-top: 38px;
-  margin-bottom: 24px;
+  margin-bottom: 21px;
 }
 
 .footer {
