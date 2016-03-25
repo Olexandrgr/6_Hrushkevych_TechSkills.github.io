@@ -436,6 +436,7 @@ p.catalog22 {
 }
 .brand23 input[type="checkbox"]:checked + label {
   background: url(../img/checked.png) 0 0 no-repeat;
+  background-position: 1px 6px;
   padding-left: 24px;
 }
 
@@ -449,6 +450,7 @@ p.catalog22 {
 }
 .brand22 input[type="checkbox"]:checked + label {
   background: url(../img/checked.png) 0 0 no-repeat;
+  background-position: 0px 5px;
   padding-left: 24px;
 }
 
